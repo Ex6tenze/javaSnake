@@ -5,7 +5,7 @@ import static snake.Game.*;
 /**
  * The player object.
  * @author Jesper Bertijn
- * @author Jochem Dijkrent
+ * @author Jochem Dijkdrent
  */
 public class Snake {
 

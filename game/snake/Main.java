@@ -3,7 +3,7 @@ package snake;
 /**
  * Application entrypoint.
  * @author Jesper Bertijn
- * @author Jochem Dijkrent
+ * @author Jochem Dijkdrent
  * @design-pattern singleton
  */
 public class Main {
@@ -11,13 +11,11 @@ public class Main {
 
     /**
      * Class-based singleton to make sure only one game can exist at a time.
-     * @return New or existing frame class constructor
      */
-    public static Frame getInstance() {
+    public static void getInstance() {
         if(INSTANCE == null) {
             INSTANCE = new Frame();
         }
-        return INSTANCE;
     }
 
     /**

@@ -11,30 +11,32 @@ The colours are inspired by Google's Snake Game.
 ***
 
 # Cooperation
-We began work on Monday the 16th.
+We began work on Thursday the 19th.
 
 Firstly, we needed to decide what application we were going to make.
 We had a few ideas: Checkers, Chess, Frogger and Snake. Chess and Checker were a bit boring, so we decided to choose 
 between Frogger and Snake. Snake seemed easier to make, so our final choice was Snake.
 
-Secondly we did some pair programming with Code With Me, an integrated feature in IntelliJ, and started working on our 
-snake application. We decided it would be better for us if we made our application, before we decided on our design 
+Secondly, we did some pair programming with Code With Me, an integrated feature in IntelliJ, and started working on our 
+snake application. We decided it would be better for us if we made our application before we decided on our design 
 patterns. So we started developing our snake application for the console.
 
 After a while, we found out that it would be easier for us if we were to make it in JFrame due to requiring constant 
-user inputs. We started working on that. The pair programming was a bit rough at the start, because Jesper already had 
-quite some Java knowledge compared to Jochem, but after the first day, we had a frame, and we knew how to draw on the 
-frame. 
+user inputs. We started working on that. The pair programming was a bit rough at the start because Jesper already had 
+quite some Java knowledge compared to Jochem, but despite that we got the hang of JFrame quite quickly, and we knew 
+how to draw on it soon after that.
 
-The day after we would work on the game from home. Jochem was going to make the food items and make them spawn on the 
+Next, we would work on the game itself. Jochem was going to make the food items and make them spawn on the 
 frame, and Jesper would make the KeyboardAdapter and make the snake move with them. If we had questions we would ask 
-them and the other person would help them the best they could. so on the second day, we had a working snake game!
+them and the other person would help them the best they could. By the end of the first day, we had a working snake 
+game!
 
-On the third day, we were going to decide the design patterns. We accidentally made a facade with how we call upon 
-JFrame and the KeyboardAdapter is an adapter of itself. We went to split up our gigantic Game class into Game, Snake, 
+On the second day, we were going to create the design patterns. We accidentally made a facade with how we call upon 
+JFrame, and the KeyboardAdapter is an adapter of itself. We went to split up our gigantic Game class into Game, Snake, 
 and Food. Luckily we had already planned for that, so we finished quickly. Jochem refactored the Food, Jesper finished 
-up the KeyboardAdapter, and we did the Snake class together, since it was more difficult due to the movement. Finally,
-we added the Singleton design pattern to the Main class to make sure there can only be one game at a time.
+up the KeyboardAdapter, and we did the Snake class together since it was more difficult due to the movement. Finally,
+we added the Singleton design pattern to the Main class to make sure there can only be one game at a time. Speaking of
+game, we realized it had several states, and therefore found our fourth design pattern.
 
 # Design patterns
 ***

@@ -3,7 +3,7 @@ package snake;
 import static snake.Game.*;
 /**
  * The score object
- * @author Jochem Dijkrent
+ * @author Jochem Dijkdrent
  */
 public class Food {
     public static int foodX;

@@ -5,7 +5,7 @@ import javax.swing.JFrame;
 /**
  * The JFrame window upon which the game is rendered.
  * @author Jesper Bertijn
- * @author Jochem Dijkrent
+ * @author Jochem Dijkdrent
  * @design-pattern Facade
  */
 public class Frame extends JFrame {

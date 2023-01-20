@@ -11,7 +11,7 @@ import static snake.Snake.*;
 /**
  * Main game class.
  * @author Jesper Bertijn
- * @author Jochem Dijkrent
+ * @author Jochem Dijkdrent
  * @design-pattern state
  */
 public class Game extends JPanel implements ActionListener {
