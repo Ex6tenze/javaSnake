@@ -3,8 +3,8 @@ package snake;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
-// TODO: Getters and setters
-import static snake.Game.direction;
+import static snake.Snake.direction;
+
 
 /**
  * Keyboard listener class using java.awt.event.
